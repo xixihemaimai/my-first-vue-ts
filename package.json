@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint-staged": "lint-staged"
   },
   "husky": {
     "hooks": {
@@ -15,12 +16,14 @@
     }
   },
   "lint-staged": {
-    "*.js": [
+    "*.{js,jsx,vue,ts,tsx}": [
+      "prettier --write",
       "eslint --fix",
       "git add"
     ]
   },
   "dependencies": {
+    "prettier": "^3.6.2",
     "vue": "^3.5.17"
   },
   "devDependencies": {
