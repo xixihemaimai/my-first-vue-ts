@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f2f8436-be38-4f9b-afca-9da05ab2c8c7" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/commitlint.config.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commitlint.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +59,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
     "ts.external.directory.path": "/Users/yangbing/Desktop/my-first-vue-ts/node_modules/typescript/lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -82,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1754127049772</updated>
       <workItem from="1754127051139" duration="1929000" />
-      <workItem from="1754129001671" duration="4872000" />
+      <workItem from="1754129001671" duration="5316000" />
     </task>
     <servers />
   </component>
