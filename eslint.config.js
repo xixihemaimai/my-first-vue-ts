@@ -1,18 +1,22 @@
-// eslint.config.js
 import globals from 'globals';
-import pluginJs from '@eslint/js'; // 修正导入路径
+import pluginJs from '@eslint/js';
+import pluginVue from 'eslint-plugin-vue';
 
 export default [
+    // 忽略文件配置
     {
-        files: ['**/*.{js,jsx,ts,tsx,vue}'], // 包含项目中需要检查的文件类型
         ignores: [
-            // 替代原来的.eslintignore
             'node_modules/',
             'dist/',
             'build/',
             'coverage/',
-            '*.config.js', // 可忽略配置文件
+            '*.config.js',
+            '.eslintignore', // 明确忽略旧的ignore文件
         ],
+    },
+    // JavaScript配置
+    {
+        files: ['**/*.{js,jsx}'],
         languageOptions: {
             ecmaVersion: 'latest',
             sourceType: 'module',
@@ -30,6 +34,27 @@ export default [
             quotes: ['error', 'single'],
             semi: ['error', 'always'],
             'no-unused-vars': 'warn',
+        },
+    },
+    // Vue文件配置
+    ...pluginVue.configs['flat/essential'], // Vue基础规则
+    {
+        files: ['**/*.vue'],
+        languageOptions: {
+            ecmaVersion: 'latest',
+            sourceType: 'module',
+            globals: {
+                ...globals.browser,
+                ...globals.node,
+            },
+        },
+        rules: {
+            // 移除已废弃的 "vue/script-setup-uses-vars" 规则
+            'vue/multi-word-component-names': 'warn', // 组件名建议多单词
+            'vue/no-unused-vars': 'warn',
+            // 新增一些常用的Vue规则
+            'vue/attribute-hyphenation': 'warn', // 属性使用连字符
+            'vue/html-self-closing': 'warn', // 自闭合标签
         },
     },
 ];
