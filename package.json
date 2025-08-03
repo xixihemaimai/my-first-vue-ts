@@ -25,7 +25,11 @@
   "dependencies": {
     "axios": "^1.11.0",
     "pinia": "^3.0.3",
+    "postcss-html": "^1.8.0",
     "prettier": "^3.6.2",
+    "stylelint": "^14.16.1",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-standard-vue": "^1.0.0",
     "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },
