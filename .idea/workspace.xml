@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5f2f8436-be38-4f9b-afca-9da05ab2c8c7" name="更改" comment="">
+    <list default="true" id="5f2f8436-be38-4f9b-afca-9da05ab2c8c7" name="更改" comment="feat(修改原来logo的高度): 高度&#10;&#10;logo的高度从7em回到了原来6em">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +66,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -80,11 +87,35 @@
       <option name="presentableId" value="Default" />
       <updated>1754127049772</updated>
       <workItem from="1754127051139" duration="1929000" />
-      <workItem from="1754129001671" duration="5316000" />
+      <workItem from="1754129001671" duration="7020000" />
     </task>
+    <task id="LOCAL-00001" summary="feat(修改原来logo的高度): 高度&#10;&#10;logo的高度从7em回到了原来6em">
+      <option name="closed" value="true" />
+      <created>1754134616040</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754134616040</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(修改原来logo的高度): 高度&#10;&#10;logo的高度从7em回到了原来6em" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(修改原来logo的高度): 高度&#10;&#10;logo的高度从7em回到了原来6em" />
   </component>
 </project>
