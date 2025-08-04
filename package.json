@@ -4,11 +4,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --open",
     "build": "vue-tsc -b && vite build",
     "preview": "vite preview",
     "lint-staged": "lint-staged",
-    "commit": "git add -A && git-cz"
+    "commit": "git add -A && git-cz",
+    "lint": "eslint src",
+    "fix": "eslint src --fix"
   },
   "husky": {
     "hooks": {
@@ -23,6 +25,7 @@
     ]
   },
   "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
     "axios": "^1.11.0",
     "element-plus": "^2.10.5",
     "mitt": "^3.0.1",
