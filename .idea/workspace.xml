@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f2f8436-be38-4f9b-afca-9da05ab2c8c7" name="更改" comment="feat(修改原来logo的高度): 高度&#10;&#10;logo的高度从7em回到了原来6em">
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -72,8 +81,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
       </set>
     </attachedChunks>
   </component>
@@ -85,7 +94,12 @@
       <option name="presentableId" value="Default" />
       <updated>1754127049772</updated>
       <workItem from="1754127051139" duration="1929000" />
-      <workItem from="1754129001671" duration="9634000" />
+      <workItem from="1754129001671" duration="27016000" />
+      <workItem from="1754299719371" duration="1688000" />
+      <workItem from="1754906364385" duration="716000" />
+      <workItem from="1756643093739" duration="174000" />
+      <workItem from="1756643976849" duration="1475000" />
+      <workItem from="1758330929348" duration="17000" />
     </task>
     <task id="LOCAL-00001" summary="feat(修改原来logo的高度): 高度&#10;&#10;logo的高度从7em回到了原来6em">
       <option name="closed" value="true" />
@@ -115,5 +129,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(修改原来logo的高度): 高度&#10;&#10;logo的高度从7em回到了原来6em" />
     <option name="LAST_COMMIT_MESSAGE" value="feat(修改原来logo的高度): 高度&#10;&#10;logo的高度从7em回到了原来6em" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

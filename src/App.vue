@@ -7,9 +7,11 @@
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import { Delete, Search } from '@element-plus/icons-vue';
+
+import { Search } from '@element-plus/icons-vue';
 
 export default defineComponent({
+    methods: { Search },
     setup() {
         return {};
     },
